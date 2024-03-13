@@ -1,0 +1,371 @@
+[
+  {
+    "id": 1,
+    "company": "BluePine Industries",
+    "business": "Frozen Momos",
+    "sectors": ["B2B", "B2C"],
+    "sharkTankFunding": {
+      "funded": true,
+      "amount": "₹75 lakhs",
+      "equity": "16%",
+      "investors": ["Ashneer", "Aman"]
+    },
+    "website": "https://bluepinefoods.com"
+  },
+  {
+    "id": 2,
+    "company": "Booz scooters",
+    "business": "Renting e-bike for mobility in private spaces",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": null
+    },
+    "website": "https://www.boozmobility.com"
+  },
+  {
+    "id": 3,
+    "company": "Heart up my Sleeves",
+    "business": "Detachable Sleeves",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": null
+    },
+    "website": "https://heartupmysleeves.com"
+  },
+  {
+    "id": 4,
+    "company": "Tagz Foods",
+    "business": "Healthy Potato Chips",
+    "sectors": ["D2C", "B2C"],
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": null
+    },
+    "website": "https://tagzfoods.com"
+  },
+  {
+    "id": 5,
+    "company": "Head and Heart",
+    "business": "",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://thehnh.in"
+  },
+  {
+    "id": 6,
+    "company": "Agro tourism",
+    "business": "",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.agritourism.in/pandurang-taware/"
+  },
+  {
+    "id": 7,
+    "company": "Qzense Labs",
+    "business": "",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.qzense.com"
+  },
+  {
+    "id": 8,
+    "company": "Peeschute",
+    "business": "Disposable Urine Bags – Your Handy Toilet",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": ["Sharks"],
+      "amount": "₹75 lakhs",
+      "equity": "6%"
+    },
+    "website": "https://peeschute.com"
+  },
+  {
+    "id": 9,
+    "company": "NOCD",
+    "business": "Energy Drink",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": ["Sharks"],
+      "amount": "₹20 lakhs",
+      "equity": "15%",
+      "debt": "₹30 lakhs"
+    },
+    "website": "https://www.jouleshealth.com"
+  },
+  {
+    "id": 10,
+    "company": "CosIQ",
+    "business": "",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://mycosiq.com"
+  },
+  {
+    "id": 11,
+    "company": "Caragreen",
+    "business": "Eco-Friendly boxes | B2B",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹50 lakhs for 20% equity"
+    },
+    "website": "https://carragreen.com"
+  },
+  {
+    "id": 12,
+    "company": "The Yarn Bazaar",
+    "business": "Yarn-Trading App | B2B",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.theyarnbazaar.com"
+  },
+  {
+    "id": 13,
+    "company": "The Renal Project",
+    "business": "Home Dialysis Treatment",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹1 crore at 6% equity"
+    },
+    "website": "https://therenalproject.com/index.php"
+  },
+  {
+    "id": 14,
+    "company": "Morikko Pure Foods",
+    "business": "Healthy Food Snacks",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://morrikopurefoods.com"
+  },
+  {
+    "id": 15,
+    "company": "Good Good Piggy Bank",
+    "business": "Digital Piggy Bank",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://goodgoodpiggy.com"
+  },
+  {
+    "id": 16,
+    "company": "Hammer Lifestyle",
+    "business": "Smart Audio Products | D2C",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹1 crore for 40% equity"
+    },
+    "website": "https://hammeronline.in"
+  },
+  {
+    "id": 17,
+    "company": "PNT",
+    "business": "Robotics and Automation Solutions",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹25 lakhs for 25% equity and ₹25 lakhs debt"
+    },
+    "website": "https://pntsolutions.in"
+  },
+  {
+    "id": 18,
+    "company": "Cocofit",
+    "business": "Coconut based beverage franchise",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.cocofit.in"
+  },
+  {
+    "id": 19,
+    "company": "Bamboo India",
+    "business": "Bamboo Products",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹50 lakhs at 3.5% Equity and ₹30 lakhs Debt"
+    },
+    "website": "https://bambooindia.com"
+  },
+  {
+    "id": 20,
+    "company": "Flying Furr",
+    "business": "Pet Grooming At Your Doorstep",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://flyingfur.in"
+  },
+  {
+    "id": 21,
+    "company": "Beyond Water",
+    "business": "Liquid Water Enhancer",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹75 lakhs for 15% Equity"
+    },
+    "website": "https://drinkbeyond.co.in"
+  },
+  {
+    "id": 22,
+    "company": "Let’s Try",
+    "business": "Healthy Snacks",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹45 lakhs for 12% Equity"
+    },
+    "website": "https://www.letstryfoods.com"
+  },
+  {
+    "id": 23,
+    "company": "Find Your Kicks India",
+    "business": "Sneaker Resale",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹50 lakhs for 25% equity"
+    },
+    "website": "https://www.instagram.com/findyourkicksindia/?hl=en"
+  },
+  {
+    "id": 24,
+    "company": "Aas Vidyalaya",
+    "business": "EdTech App",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹1.5 Crore for 15% Equity"
+    },
+    "website": "https://aasvidyalaya.com"
+  },
+  {
+    "id": 25,
+    "company": "Outbox",
+    "business": "Premium Suprise-Planning",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.outboxsurprises.com"
+  },
+  {
+    "id": 26,
+    "company": "RoadBounce",
+    "business": "Pothole Detection Software and Data",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹80 Lakhs for 20% Equity"
+    },
+    "website": "https://www.roadbounce.com"
+  },
+  {
+    "id": 27,
+    "company": "Mommy’s Kitchen",
+    "business": "Thin Crust Pizza",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://mommys.kitchen"
+  },
+  {
+    "id": 28,
+    "company": "India Hemp and Co",
+    "business": "Hemp Food Products",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.indiahempandco.com"
+  },
+  {
+    "id": 29,
+    "company": "Otua",
+    "business": "Electric Auto Vehicle",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://danderaelectric.com"
+  },
+  {
+    "id": 30,
+    "company": "Anthyesti",
+    "business": "Funeral Service",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://anthyesti.com"
+  },
+  {
+    "id": 31,
+    "company": "Ethik",
+    "business": "Leather-free Shoes",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://ethikonline.com"
+  },
+  {
+    "id": 32,
+    "company": "WeSTOCK",
+    "business": "Livestock health monitoring AI",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.brainwired.in"
+  },
+  {
+    "id": 33,
+    "company": "KetoIndia",
+    "business": "Customised Keto Diets for various medical issues",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://www.livofy.com"
+  },
+  {
+    "id": 34,
+    "company": "Magic lock",
+    "business": "LPG Cylinder Lock",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "http://www.magiclockdc.com"
+  },
+  {
+    "id": 35,
+    "company": "The State Plate",
+    "business": "Delicacies",
+    "sharkTankFunding": {
+      "funded": true,
+      "investors": "₹40 Lakhs for 3% equity and ₹25 Lakhs Debt"
+    },
+    "website": "https://thestateplate.com"
+  },
+  {
+    "id": 36,
+    "company": "Bakarmax",
+    "business": "Comics & Animation | B2C",
+    "sharkTankFunding": {
+      "funded": false,
+      "investors": null
+    },
+    "website": "https://bakarmax.com"
+  }
+]
