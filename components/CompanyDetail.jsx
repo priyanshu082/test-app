@@ -4,23 +4,25 @@ import Link from 'next/link'
 
 const CompanyDetail = ({data}) => {
   return (
-    <div className='flex flex-row h-[130px] bg-zinc-700 items-center w-[90vw] text-white px-[20px] rounded-lg justify-between'>
+    
+
+    <div className='flex flex-col sm:flex-row  bg-white sm:items-center w-[80vw] sm:w-[90vw] sm:px-[20px] p-[20px] rounded-lg sm:justify-between shadow-lg shadow-cyan-100 hover:bg-cyan-100 hover:scale-[101%] transition-all duration-1000 ease-out poppins text-zinc-800 '>
 
 
-        <div className='text-[30px] font-semibold w-1/3'>
-        {data.id}. {data.company}
+        <div className='sm:text-[2vw] text-[6vw] mb-[20px] text-center sm:text-start sm:mb-[0px] font-semibold sm:w-1/3 text-blue-950'>
+         {data.id}.{data.company}
         </div>
 
 
-       <div className='flex flex-col gap-1 w-1/3'>
+       <div className='flex flex-col gap-1 sm:w-1/3 text-[3.5vw] sm:text-[1.25vw]'>
     <div>
-        <span className='text-cyan-500 overflow-scroll '>Business:-</span> { data.business ? data.business : "N/A"}
+        <span className='text-zinc-900 overflow-scroll '>Business:-</span> { data.business ? data.business : "N/A"}
     </div>
 
     <div className='flex flex-row'>
-    <span className='text-cyan-500'>Sectors:-</span>
+    <span className='text-zinc-900'>Sectors:-</span>
    
-    { data && data.sectors ? (<div className='flex flex-row'>
+    {data && data.sectors ? (<div className='flex flex-row'>
         {data.sectors.map((items)=>(
             <div className='mr-[5px]'>{items}</div>
         ))}
@@ -37,14 +39,14 @@ const CompanyDetail = ({data}) => {
        </div>
     
 
-    <div className='flex flex-col w-1/3 gap-[2px]'>
-        <div className='text-white text-[18px] font-bold'>
+    <div className='flex flex-col sm:w-1/3 gap-[2px] text-[3vw] sm:text-[1.25vw] mt-[20px] sm:mt-[0px]'>
+        <div className=' text-[4vw]  sm:text-[1.30vw] font-bold'>
        Funding Detail
         </div>
 
         <div>
             <div className='flex flex-row gap-1'>
-                <span className='text-cyan-500'>Amount:-</span> {data.sharkTankFunding.amount ? (
+                <span className='text-zinc-900'>Amount:-</span> {data.sharkTankFunding.amount ? (
                     <div>
                     {data.sharkTankFunding.amount}
                 </div>
@@ -56,7 +58,7 @@ const CompanyDetail = ({data}) => {
             </div>
 
             <div className='flex flex-row gap-1'>
-                <span className='text-cyan-500'>equity:-</span> {data.sharkTankFunding.equity ? (
+                <span className='text-zinc-900'>equity:-</span> {data.sharkTankFunding.equity ? (
                     <div>
                         {data.sharkTankFunding.equity}
                     </div>
@@ -67,13 +69,13 @@ const CompanyDetail = ({data}) => {
                 )}
             </div>
             <div >
-                <span className='text-cyan-500'>Investors:-</span> Ashneer, Aman
+                <span className='text-zinc-900'>Investors:-</span> Ashneer, Aman
             </div>
 
         </div>
     </div>
 
-    <Link href={data.website} className='py-[7px] px-[30px]  rounded-lg border-[1px] border-cyan-500 hover:bg-cyan-500 transition-all duration-400 ease-in-out  hover:scale-105 w-1/8'>
+    <Link href={data.website} className='py-[7px] px-[3vw] sm:text-[1.5vw] text-[2vw] rounded-lg border-[1px] border-slate-200 hover:bg-slate-200 text-center transition-all duration-400 ease-in-out hover:scale-105 sm:w-1/8 hover:text-black sm:mt-0 mt-[20px]'>
         Website
     </Link>
 
