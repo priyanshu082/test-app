@@ -9,12 +9,12 @@ const Navbar = () => {
 
 
   return (
-    <div className="flex flex-row bg-transparent justify-around text-white border-b-[1px] border-zinc-600">
+    <div className="flex flex-row bg-transparent justify-around text-black border-b-[1px] border-zinc-600">
      <Link href='/'>
       <img src="/logo.svg" className="h-[100px] w-[100px]" />
      </Link>
 
-      <div className="flex flex-row  justify-center items-center gap-[3vw] text-[1.3vw] ml-[2vw]">
+      <div className="flex flex-row justify-center items-center gap-[3vw] text-[1.3vw] ml-[2vw]">
         <div>Home</div>
         <div>AboutUs</div>
         <div>Service</div>

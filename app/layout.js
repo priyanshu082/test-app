@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         <ClerkProvider>
         <html lang="en">
     
-        <body className='bg-hero bg-no-repeat cover bg-black h-[100vh]'>
+        <body className='bg-hero bg-no-repeat cover bg-white h-[100vh]'>
           <Navbar/>
         {children}
         </body>
