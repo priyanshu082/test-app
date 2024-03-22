@@ -5,7 +5,7 @@ import Link from 'next/link'
 const CompanyDetail = ({data}) => {
   return (
     
-    <div key={data.id} className='flex flex-col sm:flex-row  bg-blue-300 sm:items-center w-[80vw] sm:w-[90vw] sm:px-[20px] p-[20px] rounded-lg sm:justify-between shadow-sm shadow-cyan-100 hover:opacity-[90%] hover:scale-[101%] transition-all duration-1000 ease-out poppins text-zinc-800 '>
+    <div key={data.id} className='flex flex-col sm:flex-row  bg-zinc-300 items-center w-[95vw] sm:w-[98vw] sm:px-[20px] p-[10px] rounded-lg justify-center shadow-sm hover:scale-[101%] transition-all duration-1000 ease-out poppins text-zinc-800 mt-[1.5vw]'>
 
         <div className='sm:text-[2vw] text-[6vw] mb-[20px] text-center sm:text-start sm:mb-[0px] font-semibold sm:w-1/3 text-blue-950'>
          {data.id}.{data.company}
@@ -21,8 +21,8 @@ const CompanyDetail = ({data}) => {
     <span className='text-zinc-900'>Sectors:-</span>
    
     {data && data.sectors ? (<div className='flex flex-row'>
-        {data.sectors.map((items)=>(
-            <div className='mr-[5px]'>{items}</div>
+        {data.sectors.map((items,index)=>(
+            <div key={index} className='mr-[5px]'>{items}</div>
         ))}
     </div>
     ) : (

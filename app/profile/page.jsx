@@ -9,32 +9,13 @@ import CompanyDetail from "@/components/CompanyDetail";
 import Navbar from "@/components/Navbar";
 
 const page = () => {
-  const { isLoaded, isSignedIn, user } = useUser();
-  // const [data, setData] = useState({
-  //   username:"",
-  //   email:"",
-  //   name:"",
-  //   imageURL:""
-  // })
-
-  //   if(isLoaded){
-  //     const handleData=async()=>{
-
-  //       try {
-  //         const response=await axios.post('/api/user/signup',data)
-  //         console.log(response.data.message)
-  //       } catch (error) {
-
-  //       }
-  //     }
-  //   }
-  //   console.log(user)
+  
 
   return (
-    <div className="flex flex-col h-[100vh] overflow-scroll">
-      <div className="flex flex-col p-[40px] mt-[5vh] ">
-        {company.map((data, index) => (
-          <div key={index} className="flex justify-center mt-[30px]">
+    <div className="flex flex-col h-[100vh] w-[100vw] overflow-scroll">
+      <div className="flex flex-col p-[1.3vw] justify-center items-center ">
+        {company.map((data,index) => (
+          <div key={index}>
             <CompanyDetail data={data} />
           </div>
         ))}
