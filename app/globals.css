@@ -9,3 +9,9 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
+
+.cardImg{
+        object-fit: cover; 
+         aspect-ratio:2/4;
+         
+}
