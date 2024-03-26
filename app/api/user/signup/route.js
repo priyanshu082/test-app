@@ -3,6 +3,7 @@ import User from "@/models/user";
 
 await connectDB();
 
+
 export const POST=async (request)=>{
     try {
         const response =request.json();

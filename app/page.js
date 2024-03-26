@@ -47,7 +47,8 @@ const page = () => {
         
       </div>
 
-      <div className="flex flex-col h-[100vh] w-[100vw] overflow-scroll">
+{isSignedIn && (
+  <div className="flex flex-col h-[100vh] w-[100vw] overflow-scroll">
         <div className="flex flex-col p-[1.3vw] justify-center items-center ">
           {company.map((data, index) => (
             <div key={index}>
@@ -56,6 +57,8 @@ const page = () => {
           ))}
         </div>
       </div>
+)}
+      
     </div>
   );
 };
