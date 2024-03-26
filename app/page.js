@@ -6,12 +6,10 @@ import { useUser } from "@clerk/nextjs";
 import { SignOutButton } from "@clerk/nextjs";
 
 const Page = () => {
-
-  const { isLoaded, isSignedIn, user } = useUser();
+  const { isSignedIn, user } = useUser();
 
   return (
     <div className="flex flex-col">
-
       <div className=" ml-[1vw]">
         <div className=" flex-col w-[55vw] rounded-lg mt-[3vw] ">
           <div className=" shadow-2xl bg-black bg-opacity-20 shadow-zinc-900 h-[7vw] rounded-xl"></div>
@@ -44,24 +42,21 @@ const Page = () => {
             </div>
           )}
         </div>
-        
       </div>
 
-{isSignedIn && (
-  <div className="flex flex-col h-[100vh] w-[100vw] overflow-scroll">
-        <div className="flex flex-col p-[1.3vw] justify-center items-center ">
-          {company.map((data, index) => (
-            <div key={index}>
-              <CompanyDetail data={data} />
-            </div>
-          ))}
+      {isSignedIn && (
+        <div className="flex flex-col h-[100vh] w-[100vw] overflow-scroll">
+          <div className="flex flex-col p-[1.3vw] justify-center items-center ">
+            {company.map((data, index) => (
+              <div key={index}>
+                <CompanyDetail data={data} />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-)}
-      
+      )}
     </div>
   );
 };
 
 export default Page;
-
