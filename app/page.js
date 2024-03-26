@@ -5,7 +5,7 @@ import CompanyDetail from "@/components/CompanyDetail";
 import { useUser } from "@clerk/nextjs";
 import { SignOutButton } from "@clerk/nextjs";
 
-const page = () => {
+const Page = () => {
 
   const { isLoaded, isSignedIn, user } = useUser();
 
@@ -63,5 +63,5 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
 
