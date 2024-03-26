@@ -9,7 +9,7 @@ const Page = () => {
         <div className='text-center text-[4vw] font-bold '>
             Terms To Know
         </div>
-    <div className=" flex flex-row flex-wrap justify-center items-center gap-[3vw] overflow-scroll h-[80vw] pt-[2vw] scrollbar-none">
+    <div className=" flex flex-col sm:flex-row sm:flex-wrap sm:justify-center sm:items-center gap-[3vw] overflow-scroll h-[100vh] pt-[2vw] scrollbar-none">
       {terms.map((data, index) => (
         <div key={index}>
             <InfoCard data={data}/>

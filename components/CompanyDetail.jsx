@@ -6,7 +6,7 @@ const CompanyDetail = ({ data }) => {
   return (
     <div
       key={data.id}
-      className="flex flex-col sm:flex-row  bg-blue-300 items-center w-[95vw] sm:w-[98vw] sm:px-[20px] p-[10px] rounded-lg justify-center shadow-sm hover:scale-[101%] transition-all duration-1000 ease-out poppins text-zinc-800 mt-[1.5vw]"
+      className="flex flex-col sm:flex-row bg-blue-300 bg-opacity-7 bg-opacity-100 shadow-lg items-center w-[80vw] sm:w-[98vw] sm:px-[20px] p-[10px] rounded-lg justify-center hover:scale-[101%] transition-all duration-1000 ease-out poppins text-zinc-800 mt-[4vw] sm:mt-[1.5vw] shadow-black"
     >
       <div className="sm:text-[2vw] text-[6vw] mb-[20px] text-center sm:text-start sm:mb-[0px] font-semibold sm:w-1/3 text-blue-950">
         {data.id}.{data.company}
@@ -14,12 +14,12 @@ const CompanyDetail = ({ data }) => {
 
       <div className="flex flex-col gap-1 sm:w-1/3 text-[3.5vw] sm:text-[1.25vw]">
         <div>
-          <span className="text-zinc-900 overflow-scroll ">Business:-</span>{" "}
+          <span className="text-zinc-900 overflow-scroll font-bold ">Business:-</span>{" "}
           {data.business ? data.business : "N/A"}
         </div>
 
         <div className="flex flex-row">
-          <span className="text-zinc-900">Sectors:-</span>
+          <span className="text-zinc-900 font-bold">Sectors:-</span>
 
           {data && data.sectors ? (
             <div className="flex flex-row">
